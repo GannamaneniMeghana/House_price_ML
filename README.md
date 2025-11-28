@@ -1,23 +1,13 @@
 🚀 Just Completed a Machine Learning Project: House Price Prediction App
-
 I’m excited to share my latest ML project where I built a House Price Prediction Web App using:
-
 🔍 Tech Stack
-
-Python (Scikit-Learn, NumPy, Pandas)
-
-Linear Regression Model
-
-Flask Backend
-
-HTML + CSS Frontend
-
-Pickle for model deployment
-
+* Python (Scikit-Learn, NumPy, Pandas)
+* Linear Regression Model
+* Flask Backend
+* HTML + CSS Frontend
+* Pickle for model deployment
 🧠 What the Model Does
-
 The model predicts house prices based on:
-
 🏠 House Age (years)
 
 🛏️ Number of Bedrooms
