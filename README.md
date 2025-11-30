@@ -4,7 +4,7 @@ A simple and interactive Machine Learning web application that predicts house pr
 The model is built using Linear Regression, trained on a dataset of house prices, and deployed using Flask with a clean HTML/CSS UI.
 
 🚀 Demo (Screenshot)
-Web UI
+Web UI 
 
 <img width="987" height="799" alt="Screenshot 2025-11-28 203625" src="https://github.com/user-attachments/assets/a4454f95-e9f0-4190-83f6-9775074b48e6" />
 
