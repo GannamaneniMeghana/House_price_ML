@@ -1,50 +1,89 @@
-🚀 Just Completed a Machine Learning Project: House Price Prediction App
-I’m excited to share my latest ML project where I built a House Price Prediction Web App using:
-🔍 Tech Stack
-* Python (Scikit-Learn, NumPy, Pandas)
-* Linear Regression Model
-* Flask Backend
-* HTML + CSS Frontend
-* Pickle for model deployment
-🧠 What the Model Does
-The model predicts house prices based on:
-🏠 House Age (years)
+🏡 House Price Prediction – ML + Flask Web App
 
-🛏️ Number of Bedrooms
+A simple and interactive Machine Learning web application that predicts house prices based on Area, Bedrooms, and Age of the house.
+The model is built using Linear Regression, trained on a dataset of house prices, and deployed using Flask with a clean HTML/CSS UI.
 
-📏 Area (sqft)
+🚀 Demo (Screenshot)
+Web UI
 
-After training and evaluating the model, I integrated it with a clean and modern UI. Users can enter the values and instantly get the predicted price.
+<img width="987" height="799" alt="Screenshot 2025-11-28 203625" src="https://github.com/user-attachments/assets/a4454f95-e9f0-4190-83f6-9775074b48e6" />
 
-📊 Model Performance
+VS Code Project Structure
 
-Using a Linear Regression model, I evaluated:
+📌 Features
 
-MSE
+✔️ Clean and beautiful UI for prediction
+✔️ ML Model built using Linear Regression
+✔️ Flask backend for serving predictions
+✔️ User inputs:
 
-RMSE
+House Age (years)
+
+Bedrooms
+
+Area (sqft)
+
+✔️ Real-time price prediction
+✔️ Lightweight and easy to deploy
+
+📂 Project Structure
+├── model/
+│   └── house_price_model.pkl
+├── templates/
+│   └── index.html
+├── house_data.csv
+├── app.py
+├── regression.ipynb
+├── requirements.txt
+└── README.md
+
+🧠 Machine Learning Model
+
+The model is trained using the following features:
+
+Feature	Description
+area	Total area in square feet
+bedrooms	Number of bedrooms
+age	Age of the house in years
+Model Code (Summary)
+
+Loaded dataset using Pandas
+
+Separated features (X) and target (y)
+
+Train-test split (80/20)
+
+Trained LinearRegression()
+
+Evaluated using:
+
+Mean Squared Error
+
+Root Mean Squared Error
 
 R² Score
 
-This helped in validating how well the model fits real data.
+🛠️ Technologies Used
+Frontend
 
-💡 What I Learned
+HTML
 
-End-to-end ML workflow (Data → Model → Evaluation → Deployment)
+CSS
 
-Creating API endpoints with Flask
+Backend
 
-Connecting ML models with frontend interfaces
+Python
 
-Improving UI/UX for ML apps
+Flask
 
-🎯 Future Enhancements
+ML Libraries
 
-Try other ML models (Random Forest, XGBoost)
+Scikit-learn
 
-Add more features to improve accuracy
+Pandas
 
-Deploy on cloud (Render / AWS / Azure)
+NumPy
 
+Joblib for saving/loading model
 Below are some screenshots of the UI and backend setup 👇
 #MachineLearning #Python #DataScience #MLProjects #Flask #WebDevelopment #LinearRegression #AI
